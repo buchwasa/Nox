@@ -1,0 +1,164 @@
+* {
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("background-dark.jpg") no-repeat fixed;
+    background-size: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#login {
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    top: 35%;
+    width: 100%;
+}
+
+#login input {
+    background-color: black;
+    border: 0.2em solid white;
+    color: white;
+    font-size: 15px;
+    margin: 0.2%;
+    padding: 1% 1% 1%;
+    text-align: center;
+}
+
+#login input[type="submit"] {
+    font-size: 20px;
+    width: 15.5%;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar li {
+    display: inline;
+    white-space: nowrap;
+}
+
+#navbar li a {
+    display: inline-block;
+    font-size: 30px;
+    padding: 2% 5% 2% 5%;
+}
+
+#navbar li p {
+    font-size: 35px;
+}
+
+#newpost {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    top: 17%;
+    width: 100%;
+    z-index: 1;
+}
+
+#newpost input, #newpost textarea {
+    background-color: black;
+    border: 0.2em solid white;
+    color: white;
+    font-size: 15px;
+    margin: 0.2%;
+    padding: 1% 3% 1% 3%;
+    width: 20%;
+}
+
+#newpost input[type="submit"] {
+    font-size: 20px;
+    width: 22.5%;
+}
+
+#newpost textarea {
+    resize: none;
+    overflow: hidden;
+    padding: 1.1% 1% 5%;
+}
+
+::placeholder {
+    color: white;
+}
+
+#posts {
+    display: block;
+    padding-top: 22%;
+    width: 55%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#posts div {
+    background-color: black;
+    border: 0.2em solid white;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#posts a{
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+#settings {
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column;
+    top: 35%;
+    width: 100%;
+}
+
+#settings input {
+    background-color: black;
+    border: 0.2em solid white;
+    color: white;
+    font-size: 15px;
+    margin: 0.2%;
+    padding: 1% 1% 1%;
+    text-align: center;
+}
+
+#settings input[type="submit"] {
+    font-size: 17px;
+    width: 14.5%;
+}
+
+#welcome {
+    display: flex;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:center;
+}
+
+#welcome p{
+    background-color: black;
+    font-size: 30px;
+}
